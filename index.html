@@ -1,0 +1,737 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinSecure | Premium Financial Aggregator Karnataka</title>
+    <meta
+      name="description"
+      content="Premium Financial Aggregator & Project Funding Solutions across Karnataka. Securing capital for businesses, institutions, and real estate projects."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: "#0F172A",
+              amber: "#D97706",
+              fog: "#F8FAFC",
+              "udyoga-blue": "#0EA5E9",
+              "udyoga-green": "#22C55E",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-fog text-slate-900 antialiased overflow-x-hidden">
+    <div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(14,165,233,0.12),_transparent_30%)]"
+      ></div>
+      <div
+        class="absolute left-1/2 top-0 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-amber/10 blur-3xl"
+      ></div>
+      <div
+        class="absolute right-0 bottom-0 h-[420px] w-[420px] rounded-full bg-udyoga-green/10 blur-3xl"
+      ></div>
+    </div>
+    <div class="fixed inset-0 pointer-events-none z-40 opacity-5">
+      <svg
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-full w-full"
+      >
+        <filter id="noiseFilter">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.8"
+            numOctaves="4"
+            stitchTiles="stitch"
+          />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#noiseFilter)" />
+      </svg>
+    </div>
+
+    <header
+      class="fixed inset-x-0 top-0 z-50 border-b border-slate-200/10 bg-white/80 backdrop-blur-xl"
+    >
+      <div
+        class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8"
+      >
+        <a
+          href="#home"
+          class="text-lg font-semibold tracking-[0.32em] text-navy"
+          >FinSecure</a
+        >
+        <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
+          <a href="#home" class="transition hover:text-navy">Home</a>
+          <a href="#services" class="transition hover:text-navy">Services</a>
+          <a href="#leadership" class="transition hover:text-navy"
+            >Leadership</a
+          >
+          <a href="#contact" class="transition hover:text-navy">Contact</a>
+        </nav>
+        <button
+          class="inline-flex items-center rounded-full border border-slate-200 bg-white px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-udyoga-blue hover:text-udyoga-blue md:hidden"
+          type="button"
+          onclick="
+            document.getElementById('mobileMenu').classList.toggle('hidden')
+          "
+        >
+          Menu
+        </button>
+      </div>
+      <div
+        id="mobileMenu"
+        class="hidden border-t border-slate-200 bg-white/95 px-6 pb-4 md:hidden"
+      >
+        <nav class="flex flex-col gap-3 py-4 text-sm text-slate-700">
+          <a href="#home" class="transition hover:text-udyoga-blue">Home</a>
+          <a href="#services" class="transition hover:text-udyoga-blue"
+            >Services</a
+          >
+          <a href="#leadership" class="transition hover:text-udyoga-blue"
+            >Leadership</a
+          >
+          <a href="#contact" class="transition hover:text-udyoga-blue"
+            >Contact</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-28">
+      <section
+        id="home"
+        class="relative overflow-hidden px-6 pb-24 pt-20 sm:px-10 lg:px-12"
+      >
+        <div class="mx-auto max-w-7xl">
+          <div class="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] items-center">
+            <div class="space-y-8">
+              <div
+                class="inline-flex items-center gap-2 rounded-full bg-amber/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.32em] text-amber"
+              >
+                Premium Financial Aggregator - Karnataka
+              </div>
+              <div class="max-w-3xl space-y-6">
+                <h1
+                  class="text-5xl font-black tracking-tight text-navy sm:text-6xl lg:text-7xl leading-[0.95]"
+                >
+                  Premium Financial Aggregation &
+                  <span class="text-amber">Project Funding</span>
+                </h1>
+                <p
+                  class="text-lg leading-8 text-slate-600 sm:text-xl lg:text-2xl"
+                >
+                  Securing capital from 1 Cr to 100 Cr for businesses,
+                  institutions, and real estate projects across the entire state
+                  of Karnataka.
+                </p>
+              </div>
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center justify-center rounded-full bg-amber px-8 py-4 text-sm font-semibold text-navy shadow-[0_25px_45px_rgba(217,119,6,0.22)] transition hover:-translate-y-1"
+                >
+                  Get in Touch
+                </a>
+                <p
+                  class="max-w-xl rounded-full border border-slate-200 bg-white/90 px-5 py-3 text-sm font-medium text-slate-600"
+                >
+                  Trusted capital access for corporate, real estate and
+                  institutional clients.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="relative rounded-[2.5rem] border border-slate-200 bg-white/90 p-8 shadow-[0_40px_120px_rgba(15,23,42,0.12)]"
+            >
+              <div
+                class="absolute -inset-6 left-0 w-full rounded-[3rem] bg-udyoga-blue/10 blur-3xl"
+              ></div>
+              <div
+                class="relative rounded-[2rem] border border-slate-200 bg-slate-950 p-8 text-white shadow-2xl"
+              >
+                <p class="text-sm uppercase tracking-[0.3em] text-amber/70">
+                  FinSecure Advantage
+                </p>
+                <h2 class="mt-4 text-3xl font-semibold text-white">
+                  Structured Funding. Strategic Relationships.
+                </h2>
+                <p class="mt-4 text-slate-300 leading-relaxed">
+                  End-to-end financial aggregation, deal origination and
+                  structured capital placement for Karnataka's highest-potential
+                  ventures.
+                </p>
+                <div class="mt-10 grid gap-4 sm:grid-cols-2">
+                  <div
+                    class="rounded-3xl border border-white/10 bg-white/5 p-6"
+                  >
+                    <p class="text-sm text-slate-400">Strong Partner Access</p>
+                    <p class="mt-3 text-xl font-semibold text-white">
+                      Banks, NBFCs, Co-ops
+                    </p>
+                  </div>
+                  <div
+                    class="rounded-3xl border border-white/10 bg-white/5 p-6"
+                  >
+                    <p class="text-sm text-slate-400">Capital Ranges</p>
+                    <p class="mt-3 text-xl font-semibold text-white">
+                      1 Cr to 100 Cr
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="bg-fog py-24 px-6 sm:px-10 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <div class="mb-14 max-w-2xl">
+            <p class="text-sm uppercase tracking-[0.32em] text-amber">
+              Our Services
+            </p>
+            <h2 class="mt-4 text-4xl font-semibold text-navy sm:text-5xl">
+              Comprehensive financial solutions tailored for premium clients.
+            </h2>
+            <p class="mt-4 text-base leading-7 text-slate-600 sm:text-lg">
+              Dedicated funding advisory and aggregation services with a focus
+              on long-term partnerships and institutional-grade execution.
+            </p>
+          </div>
+
+          <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+            <article
+              class="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-[0_25px_50px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_35px_70px_rgba(15,23,42,0.12)]"
+            >
+              <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-amber/10 text-amber"
+              >
+                1
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-navy">
+                Home & Private Loans
+              </h3>
+              <p class="mt-4 text-slate-600">
+                Financing options with or without CIBIL score matching for
+                personal homes and premium residences.
+              </p>
+            </article>
+
+            <!-- COO profile moved to Leadership section -->
+
+            <article
+              class="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-[0_25px_50px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_35px_70px_rgba(15,23,42,0.12)]"
+            >
+              <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-udyoga-blue/10 text-udyoga-blue"
+              >
+                2
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-navy">
+                Secure & Unsecured Business Loans
+              </h3>
+              <p class="mt-4 text-slate-600">
+                Capital solutions for growing enterprises, working capital
+                needs, and expansion funding.
+              </p>
+            </article>
+
+            <article
+              class="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-[0_25px_50px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_35px_70px_rgba(15,23,42,0.12)]"
+            >
+              <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-udyoga-green/10 text-udyoga-green"
+              >
+                3
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-navy">
+                Institutional & School Funding
+              </h3>
+              <p class="mt-4 text-slate-600">
+                Structured finance for educational institutions, training
+                centers, and large-scale institutional projects.
+              </p>
+            </article>
+
+            <article
+              class="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-[0_25px_50px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_35px_70px_rgba(15,23,42,0.12)]"
+            >
+              <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-amber/10 text-amber"
+              >
+                4
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-navy">
+                Real Estate Project Funding
+              </h3>
+              <p class="mt-4 text-slate-600">
+                Project-level capital placement for residential, commercial and
+                mixed-use developments across Karnataka.
+              </p>
+            </article>
+
+            <article
+              class="group overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-8 shadow-[0_25px_50px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_35px_70px_rgba(15,23,42,0.12)] sm:col-span-2 xl:col-span-1"
+            >
+              <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-udyoga-blue/10 text-udyoga-blue"
+              >
+                5
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-navy">
+                Large-scale Industrial Funding
+              </h3>
+              <p class="mt-4 text-slate-600">
+                Financing complex industrial ventures and infrastructure-focused
+                asset aggregation.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative overflow-hidden bg-navy text-white">
+        <div
+          class="absolute left-0 top-0 h-80 w-80 rounded-full bg-amber/10 blur-3xl"
+        ></div>
+        <div
+          class="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-white/10 blur-3xl"
+        ></div>
+        <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8 relative">
+          <div
+            class="rounded-[2.5rem] border border-white/10 bg-slate-950/95 p-10 shadow-2xl shadow-slate-950/40"
+          >
+            <div
+              class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center"
+            >
+              <div class="space-y-4">
+                <p class="text-sm uppercase tracking-[0.3em] text-amber/80">
+                  Funding Partnerships
+                </p>
+                <h2 class="text-3xl font-semibold text-white sm:text-4xl">
+                  A trusted network of premier finance partners.
+                </h2>
+                <p class="max-w-xl text-slate-300">
+                  Our Funding Network includes Bank of Baroda (BoB), Auxilo,
+                  Co-operative Societies, and seven other premier financial
+                  institutions.
+                </p>
+              </div>
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div
+                  class="rounded-3xl border border-white/10 bg-slate-900/90 p-6 text-slate-200"
+                >
+                  <p class="text-sm uppercase tracking-[0.2em] text-amber/80">
+                    Bank of Baroda
+                  </p>
+                </div>
+                <div
+                  class="rounded-3xl border border-white/10 bg-slate-900/90 p-6 text-slate-200"
+                >
+                  <p class="text-sm uppercase tracking-[0.2em] text-amber/80">
+                    Auxilo
+                  </p>
+                </div>
+                <div
+                  class="rounded-3xl border border-white/10 bg-slate-900/90 p-6 text-slate-200"
+                >
+                  <p class="text-sm uppercase tracking-[0.2em] text-amber/80">
+                    Co-operative Societies
+                  </p>
+                </div>
+                <div
+                  class="rounded-3xl border border-white/10 bg-slate-900/90 p-6 text-slate-200"
+                >
+                  <p class="text-sm uppercase tracking-[0.2em] text-amber/80">
+                    Premier Financial Institutions
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="leadership" class="bg-fog py-16 px-6 sm:px-10 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <div class="mb-14 max-w-3xl">
+            <p class="text-sm uppercase tracking-[0.32em] text-amber">
+              Meet Our Leadership
+            </p>
+            <h2 class="mt-4 text-4xl font-semibold text-navy sm:text-5xl">
+              Executive leadership driving premium capital outcomes.
+            </h2>
+            <p class="mt-4 text-base leading-7 text-slate-600 sm:text-lg">
+              Leadership with deep Karnataka market expertise, operational
+              oversight, and tailored financing insight.
+            </p>
+          </div>
+
+          <div class="space-y-16">
+            <article
+              class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center"
+            >
+              <div class="space-y-8">
+                <h3 class="text-3xl font-black text-navy tracking-tight">
+                  A Journey of <span class="text-udyoga-green">Impact</span>
+                </h3>
+                <p class="text-slate-600 leading-relaxed">
+                  Victor Gerald is a founder-operator with over 15 years of
+                  experience building and scaling operations across finance,
+                  corporate capital, and project execution. His unique blend of
+                  asset aggregation and institutional alignment drives
+                  FinSecure’s growth.
+                </p>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Systems Architect
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Designing operational frameworks that deliver measurable
+                      results at scale.
+                    </p>
+                  </div>
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Cross-Sector Innovator
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Mastery of structured finance across real estate,
+                      industry, and institutional segments.
+                    </p>
+                  </div>
+                </div>
+                <p class="text-sm font-semibold text-slate-500">
+                  Former CEO, Skills India Global
+                </p>
+              </div>
+              <div class="relative">
+                <div
+                  class="absolute -inset-4 rounded-[2.5rem] bg-udyoga-green/10 blur-3xl"
+                ></div>
+                <div
+                  class="relative overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white shadow-[0_40px_100px_rgba(15,23,42,0.12)] h-[360px] md:h-[420px]"
+                >
+                  <img
+                    src="assets/victor-gerald.avif"
+                    alt="Victor Gerald, Managing Partner"
+                    class="h-full w-full object-cover"
+                  />
+                  <div
+                    class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-8 text-white"
+                  >
+                    <p class="font-black text-2xl">Victor Gerald</p>
+                    <p class="mt-1 text-sm text-slate-300">Managing Partner</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center"
+            >
+              <div class="relative order-2 lg:order-1">
+                <div
+                  class="absolute -inset-4 rounded-[2.5rem] bg-udyoga-blue/10 blur-3xl"
+                ></div>
+                <div
+                  class="relative overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white shadow-[0_40px_100px_rgba(15,23,42,0.12)] h-[360px] md:h-[420px]"
+                >
+                  <img
+                    src="assets/Souvik.jpeg"
+                    alt="Souvik Balaji, Managing Director"
+                    class="object-cover object-center"
+                  />
+                  <div
+                    class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-8 text-white"
+                  >
+                    <p class="font-black text-2xl">Souvik Balaji</p>
+                    <p class="mt-1 text-sm text-slate-300">Managing Director</p>
+                  </div>
+                </div>
+              </div>
+              <div class="space-y-8 order-1 lg:order-2">
+                <h3 class="text-3xl font-black text-navy tracking-tight">
+                  Visionary <span class="text-udyoga-blue">Strategy</span>
+                </h3>
+                <p class="text-slate-600 leading-relaxed">
+                  Souvik leads the firm’s strategic direction, combining deep
+                  institutional relationships with a sharp focus on project
+                  viability and risk-managed capital deployment across
+                  Karnataka.
+                </p>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Institutional Relations
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Connecting borrowers with premier banking and NBFC
+                      partners.
+                    </p>
+                  </div>
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Structured Finance
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Managing tailored capital solutions for business and
+                      project scale-up.
+                    </p>
+                  </div>
+                </div>
+                <p class="text-sm font-semibold text-slate-500">
+                  Trusted leader in Karnataka’s financial services ecosystem.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center"
+            >
+              <div class="space-y-8">
+                <h3 class="text-3xl font-black text-navy tracking-tight">
+                  Operational <span class="text-udyoga-green">Excellence</span>
+                </h3>
+                <p class="text-slate-600 leading-relaxed">
+                  Aravinda Thodar Pai brings extensive operational leadership
+                  across finance and project delivery, ensuring execution
+                  discipline, scalable processes, and client service excellence.
+                </p>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Operations & Delivery
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Optimising workflows and delivery for consistent outcomes.
+                    </p>
+                  </div>
+                  <div
+                    class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
+                  >
+                    <p class="text-sm font-semibold text-navy">
+                      Risk & Compliance
+                    </p>
+                    <p class="mt-3 text-slate-600 text-sm">
+                      Embedding controls to preserve capital and reputation.
+                    </p>
+                  </div>
+                </div>
+                <p class="text-sm font-semibold text-slate-500">
+                  Chief Operating Officer
+                </p>
+              </div>
+              <div class="relative">
+                <div
+                  class="absolute -inset-4 rounded-[2.5rem] bg-udyoga-blue/10 blur-3xl"
+                ></div>
+                <div
+                  class="relative overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white shadow-[0_40px_100px_rgba(15,23,42,0.12)] h-[360px] md:h-[420px]"
+                >
+                  <img
+                    src="assets/ARAVINDA_THODAR_Pai.jpg"
+                    alt="Aravinda Thodar Pai, COO"
+                    class="h-full w-full object-cover object-center"
+                  />
+                  <div
+                    class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-8 text-white"
+                  >
+                    <p class="font-black text-2xl">Aravinda Thodar Pai</p>
+                    <p class="mt-1 text-sm text-slate-300">
+                      Chief Operating Officer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="bg-white py-24 px-6 sm:px-10 lg:px-12">
+        <div class="mx-auto max-w-7xl">
+          <div class="grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+            <div class="space-y-8">
+              <p class="text-sm uppercase tracking-[0.32em] text-amber">
+                Contact
+              </p>
+              <h2
+                class="text-4xl font-black text-navy sm:text-5xl tracking-tight"
+              >
+                Ready to secure funding for your next project?
+              </h2>
+              <p class="max-w-xl text-base leading-7 text-slate-600 sm:text-lg">
+                Share your project details and funding requirement. Our team
+                will connect you with the right partners across Karnataka.
+              </p>
+              <div
+                class="rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm"
+              >
+                <p class="font-semibold text-navy">
+                  Operating across entire Karnataka.
+                </p>
+                <p class="mt-3 text-sm text-slate-500">
+                  Premium aggregator services available for corporate,
+                  institutional, private and real estate capital needs.
+                </p>
+              </div>
+            </div>
+
+            <form
+              class="space-y-6 rounded-[2.5rem] border border-slate-200 bg-slate-50 p-10 shadow-[0_30px_80px_rgba(15,23,42,0.08)]"
+              onsubmit="handleContact(event)"
+            >
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-semibold text-slate-700"
+                  >Full Name</label
+                >
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  class="mt-3 w-full rounded-3xl border border-slate-300 bg-white px-5 py-4 text-slate-900 outline-none transition focus:border-amber focus:ring-2 focus:ring-amber/20"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="project"
+                  class="block text-sm font-semibold text-slate-700"
+                  >Business / Project Name</label
+                >
+                <input
+                  id="project"
+                  name="project"
+                  type="text"
+                  required
+                  class="mt-3 w-full rounded-3xl border border-slate-300 bg-white px-5 py-4 text-slate-900 outline-none transition focus:border-amber focus:ring-2 focus:ring-amber/20"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="amount"
+                  class="block text-sm font-semibold text-slate-700"
+                  >Required Funding Amount</label
+                >
+                <select
+                  id="amount"
+                  name="amount"
+                  required
+                  class="mt-3 w-full rounded-3xl border border-slate-300 bg-white px-5 py-4 text-slate-900 outline-none transition focus:border-amber focus:ring-2 focus:ring-amber/20"
+                >
+                  <option value="">Select amount</option>
+                  <option>1-5 Cr</option>
+                  <option>5-20 Cr</option>
+                  <option>20-50 Cr</option>
+                  <option>50-100 Cr</option>
+                </select>
+              </div>
+
+              <div class="grid gap-6 lg:grid-cols-2">
+                <div>
+                  <label
+                    for="phone"
+                    class="block text-sm font-semibold text-slate-700"
+                    >Phone Number</label
+                  >
+                  <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    required
+                    class="mt-3 w-full rounded-3xl border border-slate-300 bg-white px-5 py-4 text-slate-900 outline-none transition focus:border-amber focus:ring-2 focus:ring-amber/20"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="email"
+                    class="block text-sm font-semibold text-slate-700"
+                    >Email</label
+                  >
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    class="mt-3 w-full rounded-3xl border border-slate-300 bg-white px-5 py-4 text-slate-900 outline-none transition focus:border-amber focus:ring-2 focus:ring-amber/20"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+              >
+                <button
+                  type="submit"
+                  class="inline-flex w-full items-center justify-center rounded-full bg-navy px-8 py-4 text-sm font-semibold text-white shadow-lg shadow-navy/20 transition hover:bg-slate-800 sm:w-auto"
+                >
+                  Submit Inquiry
+                </button>
+                <p class="text-sm text-slate-500">
+                  Our team responds promptly to funding inquiries.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-navy text-slate-300">
+        <div class="mx-auto max-w-7xl px-6 py-7 text-center lg:px-8">
+          <p class="text-sm">&copy; 2026 FinSecure. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      function handleContact(event) {
+        event.preventDefault();
+        const form = event.target;
+        const button = form.querySelector('button[type="submit"]');
+        button.textContent = "Sending...";
+        button.disabled = true;
+        setTimeout(() => {
+          alert(
+            "Thank you for your inquiry. Our team will contact you shortly.",
+          );
+          button.textContent = "Submit Inquiry";
+          button.disabled = false;
+          form.reset();
+        }, 700);
+      }
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (event) {
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            event.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
