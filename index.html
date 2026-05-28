@@ -55,17 +55,18 @@
       </svg>
     </div>
 
-    <header
-      class="fixed inset-x-0 top-0 z-50 border-b border-slate-200/10 bg-white/80 backdrop-blur-xl"
-    >
+    <header class="fixed inset-x-0 top-6 z-50 px-4 pointer-events-auto">
       <div
-        class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8"
+        class="mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl bg-white/95 border border-slate-200/10 px-6 py-4 shadow-2xl backdrop-blur-md lg:px-8"
       >
-        <a
-          href="#home"
-          class="text-lg font-semibold tracking-[0.32em] text-navy"
-          >FinSecure</a
-        >
+        <a href="#home" class="flex items-center gap-3">
+          <img
+            src="assets/finsecure-logo.jpeg"
+            alt="FinSecure"
+            class="h-10 md:h-12 w-auto"
+          />
+          <!-- <span class="text-lg font-semibold tracking-[0.32em] text-navy">FinSecure</span> -->
+        </a>
         <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
           <a href="#home" class="transition hover:text-navy">Home</a>
           <a href="#services" class="transition hover:text-navy">Services</a>
@@ -106,7 +107,7 @@
     <main class="pt-28">
       <section
         id="home"
-        class="relative overflow-hidden px-6 pb-24 pt-20 sm:px-10 lg:px-12"
+        class="relative overflow-hidden px-6 pb-24 pt-20 sm:px-10 lg:px-12 scroll-mt-20"
       >
         <div class="mx-auto max-w-7xl">
           <div class="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] items-center">
@@ -191,7 +192,10 @@
         </div>
       </section>
 
-      <section id="services" class="bg-fog py-24 px-6 sm:px-10 lg:px-12">
+      <section
+        id="services"
+        class="bg-fog py-24 px-6 sm:px-10 lg:px-12 scroll-mt-20"
+      >
         <div class="mx-auto max-w-7xl">
           <div class="mb-14 max-w-2xl">
             <p class="text-sm uppercase tracking-[0.32em] text-amber">
@@ -359,7 +363,10 @@
         </div>
       </section>
 
-      <section id="leadership" class="bg-fog py-16 px-6 sm:px-10 lg:px-12">
+      <section
+        id="leadership"
+        class="bg-fog py-16 px-6 sm:px-10 lg:px-12 scroll-mt-20"
+      >
         <div class="mx-auto max-w-7xl">
           <div class="mb-14 max-w-3xl">
             <p class="text-sm uppercase tracking-[0.32em] text-amber">
@@ -567,7 +574,10 @@
         </div>
       </section>
 
-      <section id="contact" class="bg-white py-24 px-6 sm:px-10 lg:px-12">
+      <section
+        id="contact"
+        class="bg-white py-24 px-6 sm:px-10 lg:px-12 scroll-mt-20"
+      >
         <div class="mx-auto max-w-7xl">
           <div class="grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
             <div class="space-y-8">
